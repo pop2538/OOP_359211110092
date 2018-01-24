@@ -1,11 +1,9 @@
 package ooptest7;
 //talking about Student?
-//1.Student ID
-//2.Name
-//3.Address
-//4.Gender
-
-import com.sun.org.apache.xpath.internal.operations.String;
+// 1.student ID
+// 2.Name
+// 3.Address
+// 4.Gender
 
 public class Student {
     //properties of Student
@@ -14,25 +12,26 @@ public class Student {
     private String address;
     private String gender;
     //Constructor
-    //Defult Constructor
-    public Student () {}
+    //Default Constructor
+    public Student (){}
     //Constructor by own
-    public  Student (String id,String n, String a, String g) {
+    public Student (String id,String n,String a, String g){
         //assign data to properties
         this.id = id;
         this.name = n;
         this.address = a;
         this.gender = g;
+
     }//Student
     //getter and setter methods
 
     @Override
-    public java.lang.String toString() {
+    public String toString() {
         return "Student{" +
-                "id=" + id +
-                ", name=" + name +
-                ", address=" + address +
-                ", gender=" + gender +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", gender='" + gender + '\'' +
                 '}';
     }
 
@@ -67,4 +66,5 @@ public class Student {
     public void setGender(String gender) {
         this.gender = gender;
     }
+
 }//class
