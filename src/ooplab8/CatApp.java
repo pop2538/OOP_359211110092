@@ -6,4 +6,4 @@ public class CatApp {
         System.out.println(cat.toString());
         cat.makeNoise();
     }
-}//Class
+}//Classs
